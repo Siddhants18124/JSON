@@ -6,7 +6,7 @@
 
 - Open dektop (or any folder) in Terminal and run command -
 
-      `git clone https://github.com/tb-rules10/JSON.git`
+   `git clone https://github.com/tb-rules10/JSON.git`
 
 - Open folder in VS Code & please edit only the files you're assigned.
 
