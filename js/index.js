@@ -1,6 +1,7 @@
 Load()
 
 async function Load(){
+    console.log("test");
 
     let request = new Request("../json/index.json")
     let response = await fetch(request)
@@ -9,7 +10,13 @@ async function Load(){
     LoadNav(json["navbar"])
     
     //Write Below//
+    LoadSlide(json["sliding"])
 
+    // LoadNews(json["promotednews"])
+
+    // LoadWatch(json["watchon"])
+
+    // LoadPlayers(json["players"])
 
     LoadFooter(json["footer"])
 
@@ -17,12 +24,289 @@ async function Load(){
 
 
 ////////Add Here///////
+function LoadSlide(obj){
+ console.log("yoyo")
+ let slide = document.createElement("div");   
+ slide.classList.add("container","scroll-top");
+ let panel = document.createElement("div");
+ panel.classList.add("panel");
+ panel.style.backgroundImage = obj.img1;
+ let panel2 = document.createElement("div");
+ panel2.classList.add("panel");
+ panel2.style.backgroundImage = obj.img2;
+ let panel3 = document.createElement("div");
+ panel3.style.backgroundImage = obj.img3;
+ panel3.classList.add("panel");
+ let href1 = document.createElement("a");
+ href1.href=obj.link1;
+ let href2 = document.createElement("a");
+ href2.href = obj.link2;
+ let href3 = document.createElement("a");
+ href3.href=obj.link3;
+ let br = document.createElement("br");
+
+////// appending  //////
+
+slide.appendChild(panel);
+slide.appendChild(panel2);
+slide.appendChild(panel3);
+panel.appendChild(href1);
+panel2.appendChild(href2);
+panel3.appendChild(href3);
+document.body.appendChild(slide);
+document.body.appendChild(document.createElement("br"));
+
+
+}
+function LoadNews(){
+ let hotgames = document.createElement("h2");
+ let news = document.createElement("div");
+ news.classList.add("game-news");
+ let href4 = document.createElement("a");
+ let img1 = document.createElement("img");
+ img1.classList.add("game-img"); 
+ let content = document.createElement("div");
+ content.classList.add("game-content");
+ let href5 = document.createElement("a");
+ let href5title = document.createElement("h3");x
+ let br2 = document.createElement("br");
+ let br3 = document.createElement("br");
+ let p1 = document.createElement("p");
+ let p2 = document.createElement("p");
+ let br4 = document.createElement("br");
+ let br5 = document.createElement("br");
+ let br6 = document.createElement("br");
+
+ document.body.write(hotgames);
+ document.body.write("<br>");
+ news.appendChild(href4);
+ href4.appendChild(img1);
+ news.appendChild(content);
+ content.appendChild(href5);
+ href5.appendChild(href5title);
+ content.appendChild(br2);
+ content.appendChild(br3);
+ content.appendChild(p1);
+ content.appendChild(p2);
+
+ document.body.appendChild(news);
+ document.body.appendChild(br5);
+ document.body.appendChild(br6)
+}
+
+function LoadWatch(){
+
+let some = document.createElement("div");
+let lb1 = document.createElement("br");
+let watchcont = document.createElement("div"); 
+let watchcard = document.createElement("div");
+let video = document.createElement("div");
+let iframe1 = document.createElement("iframe");
+let content = documennt.createElement("div");
+let vsteams = document.createElement("div");
+let ul1 = document.createElement("ul");
+let li1 = document.createElement("li");
+let li1img = document.createElement("img");
+let li2 = document.createElement("li");
+let lb2 = document.createElement("br");
+let ul2 = document.createElement("ul");
+let li3 = document.createElement("li")
+let li3img = document.createElement("img");
+let li4 = document.createElement("li");
+let score = document.createElement("div");
+let hr = document.createElement("hr");
+let img = document.createElement("img");
+
+some.classList.add("some-container");
+watchcont.classList.add("watch-cont");
+watchcard.classList.add("watch-card");
+video.classList.add("video");
+content.classList.add("content");
+vsteams.classList.add("vs-teams");
+score.classList.add("score");
+
+hr.style.display = 'inline-block';
+hr.style.transform = 'rotate(90deg)';
+hr.style.color = 'red';
+hr.style.width = '12vh';
+
+img.style.height = '5vh';
+
+some.appendChild(lb1);
+some.appendChild(lb2);
+some.appendChild(watchcont);
+watchcont.appendChild(watchcard);
+watchcard.appendChild(video);
+video.appendChild(iframe1);
+watchcard.appendChild(content);
+content.appendChild(vsteams);
+vsteams.appendChild(ul1);
+ul1.appendChild(li1);
+li1.appendChild(li1img);
+ul1.appendChild(li2);
+vsteams.appendChild(lb2);
+vsteams.appendChild(ul2);
+ul2.appendChild(li3);
+li3.appendChild(li3img);
+ul2.appendChild(li4);
+content.appendChild(score);
+score.appendChild(hr);
+score.appendChild(img);
+
+///watchcard 2/////
+let watchcard2 = document.createElement("div");
+let video2 = document.createElement("div");
+let iframe1_2 = document.createElement("iframe");
+let content2 = documennt.createElement("div");
+let vsteams2 = document.createElement("div");
+let ul1_2 = document.createElement("ul");
+let li1_2 = document.createElement("li");
+let li1img2 = document.createElement("img");
+let li2_2 = document.createElement("li");
+let lb2_2 = document.createElement("br");
+let ul2_2 = document.createElement("ul");
+let li3_2 = document.createElement("li")
+let li3img2 = document.createElement("img");
+let li4_2 = document.createElement("li");
+let score2 = document.createElement("div");
+let hr2 = document.createElement("hr");
+let img2 = document.createElement("img");
+
+watchcard2.classList.add("watch-card");
+video2.classList.add("video");
+content2.classList.add("content");
+vsteams2.classList.add("vs-teams");
+score2.classList.add("score");
+
+hr2.style.display = 'inline-block';
+hr2.style.transform = 'rotate(90deg)';
+hr2.style.color = 'red';
+hr2.style.width = '12vh';
+
+img2.style.height = '5vh';
+
+
+watchcard2.appendChild(video2);
+video2.appendChild(iframe1_2);
+watchcard2.appendChild(content2);
+content2.appendChild(vsteams2);
+vsteams2.appendChild(ul1_2);
+ul1_2.appendChild(li1_2);
+li1_2.appendChild(li1img2);
+ul1_2.appendChild(li2_2);
+vsteams2.appendChild(lb2_2);
+vsteams2.appendChild(ul2_2);
+ul2_2.appendChild(li3_2);
+li3_2.appendChild(li3img2);
+ul2_2.appendChild(li4_2);
+content2.appendChild(score2);
+score2.appendChild(hr2);
+score2.appendChild(img2);
 
 
 
 
+///watchcard 3/////
+let watchcard3 = document.createElement("div");
+let video3 = document.createElement("div");
+let iframe1_3 = document.createElement("iframe");
+let content3 = documennt.createElement("div");
+let vsteams3 = document.createElement("div");
+let ul1_3 = document.createElement("ul");
+let li1_3 = document.createElement("li");
+let li1img3 = document.createElement("img");
+let li2_3 = document.createElement("li");
+let lb2_3 = document.createElement("br");
+let ul2_3 = document.createElement("ul");
+let li3_3 = document.createElement("li")
+let li3img3 = document.createElement("img");
+let li4_3 = document.createElement("li");
+let score3 = document.createElement("div");
+let hr3 = document.createElement("hr");
+let img3 = document.createElement("img");
+
+watchcard3.classList.add("watch-card");
+video3.classList.add("video");
+content3.classList.add("content");
+vsteams3.classList.add("vs-teams");
+score3.classList.add("score");
+
+hr3.style.display = 'inline-block';
+hr3.style.transform = 'rotate(90deg)';
+hr3.style.color = 'red';
+hr3.style.width = '12vh';
+
+img3.style.height = '5vh';
 
 
+watchcard3.appendChild(video3);
+video3.appendChild(iframe1_3);
+watchcard3.appendChild(content3);
+content3.appendChild(vsteams3);
+vsteams3.appendChild(ul1_3);
+ul1_3.appendChild(li1_3);
+li1_3.appendChild(li1img3);
+ul1_3.appendChild(li2_3);
+vsteams3.appendChild(lb2_3);
+vsteams3.appendChild(ul2_3);
+ul2_3.appendChild(li3_3);
+li3_3.appendChild(li3img3);
+ul2_3.appendChild(li4_3);
+content3.appendChild(score3);
+score3.appendChild(hr3);
+score3.appendChild(img3);
+
+
+let lbo1 = document.createElement("br");
+let lbo2 = document.createElement("br");
+
+some.appendChild(lbo1);
+some.appendChild(lbo2);
+
+some.appendChild(watchcard);
+some.appendChild(watchcard2);
+some.appendChild(watchcard3);
+
+document.body.append(some);
+
+}
+
+function LoadPlayers(){
+
+    let players = document.createElement("div");
+    let plb1 = document.createElement("br");
+    let control = document.createElement("div");
+    let name = document.createElement("div"); 
+    let controls = document.createElement("div");
+    let arrow1 = document.createElement("img");
+    let arrow2 = document.createElement("img");
+    let plb2 = document.createElement("br");
+    let playercards = document.createElement("div");
+    let card1 = document.createElement("div");
+    let dp = document.createElement("div");
+    let info = document.createElement("div");
+    let pa1 = document.createElement("a");
+    let h3 = document.createElement("h3");
+
+    players.classList.add("players");
+    control.classList.add("control");
+    name.classList.add("name");
+    controls.classList.add("controls");
+    playercards.classList.add("playercards");
+    card1.classList.add("player-card");
+    dp.classList.add("dp");
+    info.classList.add("information","effect");
+
+    players.appendChild(plb1);
+    players.appendChild(control);
+    control.appendChild(arrow1);
+    control.appendChild(arrow2);
+    players.appendChild(plb2);
+    players.appendChild(playercards);
+
+
+
+}
 ///////////////////////
 
 
