@@ -25,18 +25,144 @@
         },
         "signup": "/images/sign.png"
     },
-
-
-    
-
-
-
     "footer": {
         "icons": ["https://cdn-icons-png.flaticon.com/512/3670/3670127.png","https://cdn-icons-png.flaticon.com/512/187/187209.png","https://cdn-icons-png.flaticon.com/512/3955/3955024.png","https://cdn-icons-png.flaticon.com/512/5968/5968764.png","https://cdn-icons-png.flaticon.com/512/3670/3670157.png"],
         "logo": "/images/logo1.png",
         "copyright": "© 2022, Copyright: ESportle : Tanishq Bhatt, Aayush  Dubey & Siddhant Sharma.",
         "end": "'GG' stands for a  'GOOD GAME'"
+    },
+
+    "sliding":{
+    
+            "link1": "https://www.ea.com/en-gb/games/apex-legends",
+            "link2": "https://na.battlegrounds.pubg.com/",
+            "link3": "https://playvalorant.com/en-gb/",
+            "img1": "url('images/apex.png')",
+            "img2":"url('images/pubg.png')",
+            "img3":"url('images/valorant.png')"
+    },
+    
+    "promotednews":{
+        "head": "Hottest in Games",
+        "news":{
+            "title":"Sony won’t replace damaged The Last of Us Part 1 Firefly Editions, fans claim",
+            "desc":"Many buyers of the Firefly Edition of The Last of Us Part 1 are reporting the game was delivered to them massively damaged, and now Sony is apparently refusing to replace their copies.There’s nothing worse than getting a damaged package in the mail, especially when the parcel is a limited edition game.For those who purchased the special Firefly Edition of The Last of Us Part 1, the launch day of the action-adventure remake quickly went from celebration to nightmare as many fans reported their copies were beaten up when delivered...(more)",
+            "img": "url(https://c4.wallpaperflare.com/wallpaper/362/521/179/game-naughty-dog-the-last-of-us-part-ii-wallpaper-preview.jpg)"
+        }
+    },
+    "watchon":{
+        "head":"WATCH ON ESPORTLE",
+        "tv":"url(/images/tv.png)",
+        "livecards":{
+            "0":{
+                "embed":"https://www.youtube.com/embed/qa454jRcba8?start=2",
+                "team1":"G2 ESPORTS",
+                "team1pic":"url(/images/logos/g2e.png)",
+                "team2":"NATUS VINCERE",
+                "team2pic":"url(/images/logos/nan.png)"
+            },
+            "1":{
+                "embed":"https://www.youtube.com/embed/jcY60vL7208?start=10&showinfo=0&autohid=1",
+                "team1":"SENTINELS",
+                "team1pic":"url(/images/logos/sentinals.png)",
+                "team2":"100T",
+                "team2pic":"url(/images/logos/100t.png)"
+            },
+            "2":{
+                "embed":"https://www.youtube.com/embed/xZLFVV2qxQQ?start=1654",
+                "team1":"FNC",
+                "team1pic":"url(/images/logos/fnc.png)",
+                "team2":"IG",
+                "team2pic":"url(/images/logos/ig.png)"
+            }
+            }
+            },
+    "players":{
+        "header":"PLAYERS",
+        "arrowsl":"url(/images/arrows1.png)",
+        "arrows2":"url(/images/arrows2.png)",
+        "cards":{
+            "0":{
+                "img":"url(https://images6.alphacoders.com/962/962471.jpg)",
+                "name":"Lionel Messi"
+            },
+            "1":{
+                "img":"url(https://c4.wallpaperflare.com/wallpaper/350/470/398/soccer-neymar-brazilian-paris-saint-germain-f-c-wallpaper-preview.jpg)",
+                "name":"Neyamr Jr."
+            },
+            "2":{
+                "img":"url(https://c4.wallpaperflare.com/wallpaper/558/12/1019/soccer-luis-suarez-fc-barcelona-luis-suarez-wallpaper-preview.jpg)",
+                "name":"Luis Suarez<"
+            },
+            "3":{
+                "img":"url(https://c4.wallpaperflare.com/wallpaper/881/819/618/soccer-karim-benzema-french-real-madrid-c-f-wallpaper-preview.jpg)",
+                "name":"Karim Benzema"
+            }
+    },
+    "highlights":{
+        "head":"MATCH HIGhLIGHTS",
+        "videos":{
+            "0":{
+                "link":"https://www.youtube.com/embed/RSsYotUD6R0?start=2",
+                "name":"Apex Legends - Funny Moments & Best Highlights"
+            },
+            "1":{
+                "link":"https://www.youtube.com/embed/OdeQluDGa8M?start=3",
+                "name":"BEST VALORANT PLAYS OF 2021 | VALORANT MONTAGE"
+            },
+            "2":{
+                "link":"https://www.youtube.com/embed/G6RayaBJpAI?start=4",
+                "name":"TenZ : INHUMAN's Valorant match Highlights"
+            },
+            "3":{
+                "link":"https://www.youtube.com/embed/e7csWyElaIk",
+                "name":"50+ BEST PLAYS from ALGS Championship 2022"
+            }
+        }
+    },
+    "teams":{
+        "head":"TOP 5 TEAMS IN YOUR COUNTRY",
+        "cards":{
+            "0":{
+                "logo":"url('/images/logos/soul.png')",
+                "link":"https://liquipedia.net/pubgmobile/Team_SouL",
+                "fname":"TEAM",
+                "lname":"SOUL"
+            },
+            "1":{
+                "logo":"url('/images/logos/tsm.png')",
+                "link":"https://liquipedia.net/pubgmobile/TSM",
+                "fname":"TEAM",
+                "lname":"TSM"
+            },
+            "2":{
+                "logo":"url('/images/logos/gl.png')",
+                "link":"https://liquipedia.net/pubgmobile/GodLike_Esports",
+                "fname":"TEAM",
+                "lname":"GODLIKE"
+            },
+            "3":{
+                "logo":"url('/images/logos/7seas.png')",
+                "link":"https://liquipedia.net/pubgmobile/7Sea_Esports",
+                "fname":"TEAM",
+                "lname":"7SEAS"
+            },
+            "4":{
+                "logo":"url('/images/logos/enigma.png')",
+                "link":"https://liquipedia.net/valorant/Enigma_Gaming",
+                "fname":"TEAM",
+                "lname":"ENIGMA"
+            }
+        }
+    },
+    "tweets":{
+        "head":"TOP TWEETS RIGHT NOW",
+        "quotel":"url(/images/apos.png)",
+        "quoter":"url(/images/apos.png)",
+        "desc":"A group of ex-Riot developers formed a new studio called Odyssey Interactive, and their first game is Omega Strikers. We played it...and couldn't stop playing it! Find out why we think this esports contender could be your next big multiplayer obsession. Viola Davis anchors an excellent ensemble in this rousing period piece about the Agojie warriors of Dahomey. The end is nigh! @DRX_VS & @OpTic have one last chance to go big or go home.",
+        "userimg":"https://pbs.twimg.com/profile_images/1565420514105081856/mK6SVkge_400x400.jpg",
+        "username":"IGN",
+        "role":"MEDIA@IGN" 
     }
-
 }
-
+} 
