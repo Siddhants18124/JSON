@@ -54,7 +54,7 @@ function LoadNews(obj){
     let img1 = document.createElement("img");
     img1.src = obj.img2;
     img1.classList.add("news-img");
-    newsbox.appendChild(img);
+    newsbox.appendChild(img1);
     newsbox.appendChild(document.createElement("br"));
     newsbox.appendChild(document.createElement("br"));
 
