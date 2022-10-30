@@ -129,14 +129,14 @@ function LoadNwCard(obj){
     div1.classList.add("container");
     let div2 = document.createElement("div");
     div2.style.backgroundImage = obj.bgimg_1;
-    div2.classList.add("panel"); 
+    div2.classList.add("panel","active"); 
     let a1 = document.createElement("a");
-    a1.href = obj.herf1_1;
+    a1.href = obj.href1_1;
     a1.classList.add("color-me");
     let h31 = document.createElement("h3");
     let a2 = document.createElement("a");
     a2.innerText = obj.txt_1;
-    a2.href = obj.herf1_2;
+    a2.href = obj.href1_2;
     a2.classList.add("color-me");
     
     let div3 = document.createElement("div");
@@ -195,7 +195,9 @@ function LoadNwCard(obj){
     h3.appendChild(a)
     
     document.body.appendChild(div1);
-    
+    document.body.appendChild(document.createElement("br"));
+    document.body.appendChild(document.createElement("br"));
+
 
 
 }

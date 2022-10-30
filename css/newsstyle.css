@@ -55,13 +55,16 @@ body{
   color: white;
 }
 
-.panel.active {
+.panel:hover {
   flex: 3;
 }
 
-.panel.panel.active h3 {
+.panel:hover h3{
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+}
+
+.panel.panel.active h3 {
 }
 
 @media (max-width: 580px) {
