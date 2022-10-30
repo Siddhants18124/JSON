@@ -13,11 +13,11 @@
 ## Work Assigned:-
 
 
-Name                    |   Work               |   Deadline              
+Name                    |   Work               |   Status            
 :-------------------------:|:-------------------------:|:-------------------------:|
-**Aayush Dubey**           | News (news.html, news.js & news.json)            | TBD
-**Tanishq Bhatt**          |  Navbar, Footer, Login Page & Games              | 22/10
-**Siddhant Sharma**        | Homepage (index.html, index.js, index.json)      | 24/10
+**Aayush Dubey**           | News (news.html, news.js & news.json)            | Pending 
+**Tanishq Bhatt**          |  Navbar, Footer, Login Page & Games              | ✅
+**Siddhant Sharma**        | Homepage (index.html, index.js, index.json)      | ✅
 
 
 <!--- 
