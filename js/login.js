@@ -1,9 +1,12 @@
 let div = document.createElement("div");
 div.classList.add("login-form");
 let form = document.createElement("form");
+form.id = "inputform"
+form.action = "/index.html";
 div.appendChild(form);
 let h1 = document.createElement("h1");
 h1.innerText = "Login";
+form.appendChild(h1);
 let cont = document.createElement("div");
 cont.classList.add("content");
 let inf = document.createElement("div");

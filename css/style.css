@@ -258,11 +258,11 @@ ul {
     list-style-type: none;
 }
 
-.login{
+.login, .signup{
     transition: 200ms ease-in-out;
 }
-.login:hover{
-    transform: scale(1.2);
+.login:hover, .signup:hover{
+    transform: scale(1.1);
 }
 
 .panel a{
@@ -348,3 +348,6 @@ ul {
     height: 100%;
     width: 100%;
 }
+.disabled-link {
+    pointer-events: none;
+  }
